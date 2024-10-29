@@ -1,14 +1,3 @@
-from flask import Flask, request, render_template_string
-import requests
-
-app = Flask(__name__)
-
-# Replace with your proxy details if you have a specific one
-PROXY = {
-    "http": "http://your-proxy-address:port",
-    "https": "http://your-proxy-address:port",
-}
-
 # HTML Template with embedded Python via Flask's render_template_string
 HTML_TEMPLATE = """
 <!DOCTYPE html>
